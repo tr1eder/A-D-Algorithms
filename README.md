@@ -1,8 +1,5 @@
 # A-D-Algorithms
 
-kk
-blabla
-
 This package contains:
 - **Search**
   - Linear search
