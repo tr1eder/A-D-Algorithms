@@ -1,4 +1,4 @@
-# A-D-Algorithms
+# A&D-Algorithms
 
 This package contains:
 - **Search**
