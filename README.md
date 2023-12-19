@@ -20,6 +20,7 @@ This package contains:
   - SubsetSum
   - Knapsack
   - MatrixChain
+  - allSubsets
 - **Data Structures**
   - Stack
   - Queue
