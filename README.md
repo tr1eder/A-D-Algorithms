@@ -1,4 +1,4 @@
-# A-D-Algorithms
+# A&D-Algorithms
 
 This package contains:
 - **Search**
@@ -20,6 +20,7 @@ This package contains:
   - SubsetSum
   - Knapsack
   - MatrixChain
+  - allSubsets
 - **Data Structures**
   - Stack
   - Queue
