@@ -10,9 +10,10 @@ import theGUI.Window;
 public class AVL_tree {
 
 	public static void main(String[] args) {
+		System.out.println("hello world");
 		AVLTree avl = new AVLTree(50, true);
 		DrawTree draw = new DrawTree(avl);
-		draw.setAnimateTime(300);
+		// draw.setAnimateTime(2000);
 
 		// int[] demonstrateSingleRot = new int[] {30, 20};
 		// Insert fixInsert1 = new FixedInsert(demonstrateSingleRot);
@@ -25,14 +26,14 @@ public class AVL_tree {
 		// Insert fixInsert2 = new FixedInsert(demonstrateDoubleRot);
 		// draw.show(fixInsert2);
 		
-		int[] demonstrateDoubleRot = new int[] {20, 60, 10, 30, 40, 35, 45, 80, 48, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-		Insert fixInsert = new FixedInsert(demonstrateDoubleRot);
-		draw.show(fixInsert);
+		// int[] demonstrateDoubleRot = new int[] {20, 60, 10, 30, 40, 35, 45, 80, 48, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+		// Insert fixInsert = new FixedInsert(demonstrateDoubleRot);
+		// draw.show(fixInsert);
 		
 		
 		
-		// Insert toInsert = new RandomInsert(1000);
-		// draw.show(toInsert);
+		Insert toInsert = new RandomInsert(1000);
+		draw.show(toInsert);
 		
 		
 		
@@ -146,6 +147,7 @@ class DrawTree {
 			
 			try {
 				if (System.currentTimeMillis()-time > animateTime) {
+					System.out.println(System.currentTimeMillis()-time);
 					time = System.currentTimeMillis();
 
 					Integer nextValue = inserter.getNext();
